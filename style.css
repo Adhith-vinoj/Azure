@@ -150,6 +150,7 @@
 .container-middle{
     width: 100%;
     padding: 0px 16px;
+    margin-top: -4px;
 }
 
 .row-middle{
@@ -2279,7 +2280,9 @@ padding: 0px 12px;
     
 
 
-
+.microsoft-logo{
+    left:210px;
+}
 
 .work{
     text-align: center;
@@ -2392,6 +2395,13 @@ line-height: 16px;
 @media  screen and (min-width:768px){
 
 
+
+    .microsoft-logo{
+      left: 325px;
+    }
+
+
+
    .container-section-root{
     background-repeat: no-repeat;
     background-size: cover;
@@ -2462,6 +2472,9 @@ line-height: 16px;
     flex: 1;
 }
 
+
+
+
     .azure-head{
         display: none;
     }
@@ -2500,6 +2513,9 @@ line-height: 16px;
     height: 54px;
     display: flex;
     align-items: center;
+    border-left: 2px solid black;
+    height: 24px;
+    margin-left: 20px;
     
 }
 
@@ -2579,7 +2595,7 @@ line-height: 16px;
     font-size: 18px;
     font-weight: 600;
     padding:16px 6px 16px 10px;
-    margin-left: 18px;
+    margin-left: 10px;
     
 
 }
@@ -2624,7 +2640,7 @@ line-height: 16px;
 
 .container-middle{
     position: absolute;
-    top:126px;
+    top:130px;
     padding: 0px 56px;
     width: 99%;
     left: -8px;
@@ -2730,7 +2746,9 @@ line-height: 16px;
     border: none;
     background: white;
     display: flex;
-    
+    /* border-bottom: 3px solid #71ede8;
+    height: 64px;
+     */
 }
 
 .form-first-section input{
@@ -2739,12 +2757,13 @@ line-height: 16px;
     font-family: mediumwoff;
     font-size: 16px;
     line-height: 24px;
-
     
 }
 .send-logo{
     width: 23px;
     height: 23px;
+    opacity: .2;
+    transform: translateX(200%);
 }
 
 
@@ -2766,6 +2785,9 @@ line-height: 16px;
  
 }
 
+
+
+
 .forms-list{
     display: flex;
     flex-direction:column;
@@ -2776,7 +2798,7 @@ line-height: 16px;
     display: flex;
     flex-direction: column;
     gap: 10px;
-    width: 40%;
+    width: 56%;
 }
 
 .form-button{
@@ -2790,7 +2812,7 @@ line-height: 16px;
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 100%;
+    width: 110%;
     line-height: 24px;
 
 }
@@ -2821,7 +2843,6 @@ line-height: 16px;
     
     
 }
-
 
 
 
@@ -2943,9 +2964,6 @@ line-height: 16px;
     top: 15px;
     margin: 0px 8px;
 }
-
-
-
 
 
 
@@ -3081,12 +3099,14 @@ margin-top: 48px;
     display: flex;
     align-items: flex-start;
     margin-top: 32px;
+    gap: 60px;
 }
 
 .ai-section-pannel-group{
     /* margin-top: 32px; */
     margin-left: 48px;
-    flex-basis:  calc(33% - 1rem / 2);
+    /* flex-basis:  calc(33% - 1rem / 2); */
+    width: 100%;
     overflow-y: auto;
 }
 
@@ -3427,6 +3447,10 @@ letter-spacing: -1.5px;
  .limits-button{
     padding: 12px 16px;
     white-space: nowrap;
+    width: 150.78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
  /* -------------------------customers-section--------------------- */
  .customer-section-root{
@@ -3918,6 +3942,10 @@ width: 181.45px;
     align-items: center;
 }
 
+.form-section-root{
+    width: 50%;
+}
+
 .card-button{
     width: 126.4px;
 }
@@ -4109,6 +4137,12 @@ width: 181.45px;
         display: none;
     }
 
+.head-section-tab{
+    margin: 0px auto;
+    max-width: 1600px;
+}
+
+
     .second-head {
         font-size: 48px;
         line-height: 56px;
@@ -4121,16 +4155,22 @@ width: 181.45px;
     }
 
     .container-middle{
-        padding: 0px 72px;
+        padding: 0% 5%;
     }
+.row-middle-root{
+    margin: 0px auto;
+  max-width: 1328px;
+}
+
+   
 
     .ai-container{
-        padding: 0px 72px;
-        /* margin: 0px auto; */
-        /* max-width: 1328px; */
+        padding: 0% 5%;
+        max-width: 1584px;
+        margin: 0px auto;
     }
 
-
+    
     .head-tab{
         font-size: 32px;
         line-height: 40px;
@@ -4142,15 +4182,15 @@ width: 181.45px;
     }
 
     .featured-tab-section{
-        padding: 0px 72px;
-        /* margin: 0px auto; */
-        /* max-width: 1328px; */
+        padding: 0% 5%;
+        max-width: 1584px;
+        margin: 0px auto;
     }
 
     .container-section{
-        padding: 0px 72px;
-        /* margin: 0px auto; */
-        /* max-width: 1328px; */
+        padding: 0% 5%;
+        max-width: 1584px;
+        margin: 0px auto
     }
 
     .discover-head{
@@ -4168,7 +4208,9 @@ width: 181.45px;
     }
 
     .solution-section-main{
-        padding: 0px 72px;
+        padding: 0% 5%;
+        max-width: 1584px;
+        margin: 0px auto;
 
     }
 
@@ -4179,7 +4221,9 @@ width: 181.45px;
 }
 
 .product-section-master{
-    padding: 0px 72px;
+    padding: 0% 5%;
+    max-width: 1586px;
+    margin: 0px auto;
 }
 
 .vision{
@@ -4223,7 +4267,9 @@ width: 181.45px;
 
 
 .microsoft-section-container{
-    padding:0px 72px;
+    padding:0% 5%;
+    margin: 0px auto;
+    max-width: 1584px;
 
 }
 
@@ -4239,7 +4285,9 @@ width: 181.45px;
 
 
 .transform-container{
-    padding: 0px 72px;
+    padding: 0% 5%;
+    max-width: 1584px;
+    margin: 0px auto;
 }
 
 .work{
@@ -4254,7 +4302,10 @@ width: 181.45px;
     line-height: 32px;
 }
 
-
+.developers-demo-tab{
+    margin: 0px auto;
+    max-width: 1336px;
+}
 .azure-inside-container{
     padding: 0px 72px;
 }
@@ -4276,7 +4327,9 @@ width: 181.45px;
 }
 
 .customer-section-container{
-    padding: 0px 72px;
+    padding: 0% 5%;
+    max-width: 1584px;
+    margin: auto;
 }
 
 .innovating{
@@ -4302,8 +4355,10 @@ width: 181.45px;
 }
 
 
-.take-next-conatiner{
-    padding: 0px 72px;
+.take-next-container{
+    padding: 0% 5%;
+    max-width: 1584px;
+    margin: 0px auto;
 }
 
 .take-next{
@@ -4318,10 +4373,19 @@ width: 181.45px;
     line-height: 28px;
 }
 
+.azure-app-section{
+    padding: 24px 5%;
+    max-width: 1584px;
+    margin: 0px auto;
+}
+
 
 /* ------------------- */
 
-
+.footer-section-nav{
+    max-width: 1856px;
+    margin: 0px auto;
+}
 .featured-list-l{
     height: 40px;
 }
@@ -4352,10 +4416,12 @@ width: 181.45px;
     font-size: 8px;
 }
 
+.consumer-footer-root{
+    margin: 0px auto;
+    max-width: 1856px;
 }
 
-  
 
 
-
+}
 
